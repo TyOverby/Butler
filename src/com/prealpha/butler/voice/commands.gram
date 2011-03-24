@@ -1,0 +1,18 @@
+#JSGF V1.0;
+
+/**
+ * JSGF Grammar for Hello World example
+ */
+
+grammar hello;
+//basic
+public <On> = (On);
+public <Off> = (Off);
+public <music> = (Music);
+public <Calendar> = (Calendar);
+public <Time> = (Time);
+
+//stuff for music playing
+public <play> = (Play);
+public <stop> = (Pause);
+public <next> = (Next);
